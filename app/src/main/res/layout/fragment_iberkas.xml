@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FragmentIberkas"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bt3"
+        android:layout_marginBottom="20dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="95dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="1dp"
+            android:src="@drawable/logos" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="340dp"
+                android:layout_height="155dp"
+                android:layout_marginTop="-20dp"
+                android:src="@drawable/info_berkas" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnBerkas1"
+                android:layout_width="340dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-25dp"
+                android:background="@drawable/bt1"
+                android:onClick="home1"
+                android:text="Daftar dan Pengumpulan Berkas SEMPRO"
+                android:textColor="@color/white"
+                android:textSize="13sp" />
+
+            <ImageView
+                android:layout_width="340dp"
+                android:layout_height="155dp"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/info_berkas" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnBerkas2"
+                android:layout_width="340dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-25dp"
+                android:background="@drawable/bt1"
+                android:onClick="home2"
+                android:text="Template Rekomendasi Pembimbing"
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

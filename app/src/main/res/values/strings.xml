@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">E-TE Sempo UMM</string>
+    <string name="home">Home</string>
+    <string name="berita">Berita</string>
+    <string name="ipendaftaran">Info</string>
+    <string name="iberkas">Berkas</string>
+    <string name="jpendaftaran">Jadwal</string>
+    <string name="fragment_home">Fragment Home</string>
+    <string name="fragment_berita">Fragment Berita</string>
+    <string name="fragment_ipendaftaran">Fragment Ipendaftaran</string>
+    <string name="fragment_iberkas">Fragment Iberkas</string>
+    <string name="fragment_jpendaftaran">Fragment Jpendaftaran</string>
+</resources>

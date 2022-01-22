@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_home"
+        android:icon="@drawable/ic_home"
+        android:title="@string/home"/>
+    <item
+        android:id="@+id/menu_berita"
+        android:icon="@drawable/ic_berita"
+        android:title="@string/berita"/>
+    <item
+        android:id="@+id/menu_info"
+        android:icon="@drawable/ic_info"
+        android:title="@string/ipendaftaran"/>
+    <item
+        android:id="@+id/menu_berkas"
+        android:icon="@drawable/ic_folder"
+        android:title="@string/iberkas"/>
+    <item
+        android:id="@+id/menu_jadwal"
+        android:icon="@drawable/ic_jadwal"
+        android:title="@string/jpendaftaran"/>
+</menu>
